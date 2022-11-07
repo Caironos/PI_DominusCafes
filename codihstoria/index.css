@@ -1,0 +1,106 @@
+.fundo{background-color: #265289;}
+
+.linha{
+    border-top: 3px solid #fff;
+}
+.branco{
+    color: white;
+}
+.texto{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 15px;
+    color: #c3924c;
+}
+
+.icone{
+    height: 100px;
+}
+.cor{
+    background-color: #265289;
+}
+.texto2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    color: #c3924c;
+}
+.carrinho{
+  margin-right: 40px;
+  margin-top: 25px;
+}
+.pesquisa{
+  padding-top: 18px;
+  margin-right: 50px;
+}
+
+/*Historia Dominus*/
+
+.historia {
+  color: black;
+  text-align:justify;
+}
+.logo{
+  margin-bottom: 50px;
+}
+.linhahi{
+  border-top: 3px solid #000;
+  margin-bottom: 200px;
+}
+b{
+  padding-top: 100px;
+}
+#more {display: none;}
+
+.met{
+  border: solid 3px #265289;
+}
+.text{
+  text-align: justify;
+}
+.cor2{
+  color: #c3924c;
+}
+.ver{
+  background-color: #265289;
+}
+.insta{
+  text-decoration: none;
+  color: #fff;
+}
+/*rodape*/
+.sobre{
+  margin-left: 5px;
+}
+
+footer P
+{
+  max-height: 0;
+  margin-bottom: 30px;
+}
+
+
+
+/*JS*/
+#linha1 , #linha2 , #linha3 , #linha4
+{
+  height: 3px;
+  width: 50%;
+  margin-top: -5px;
+  background-color: white;
+  display: none;
+
+  animation: selecionado 1s;
+}
+#nav-1 a , #nav-2 a , #nav-3 a , #nav-4 a
+{
+  text-decoration: none;
+  color: white;
+}
+
+@keyframes selecionado {
+  
+  0% { width: 0px; }
+  100% { width: 50%; }
+
+}
