@@ -6,7 +6,6 @@ $db_name = 'DominusCafes';
 
 $connection = mysqli_connect($host,$user,$passwd,$db_name);
 
-mysql_select_db("DominusCafes")or die(mysql_error());
 
 $safe_value = mysql_real_escape_string($_POST['search']);
 
