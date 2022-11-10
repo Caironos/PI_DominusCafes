@@ -54,6 +54,7 @@ b{
 
 .met{
   border: solid 3px #265289;
+  border-radius: 5px;
 }
 .text{
   text-align: justify;
