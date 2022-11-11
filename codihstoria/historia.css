@@ -53,8 +53,7 @@ b{
 #more {display: none;}
 
 .met{
-  border: solid 3px #265289;
-  border-radius: 5px;
+  box-shadow:1.5px 1.5px 5px #265289;
 }
 .text{
   text-align: justify;
