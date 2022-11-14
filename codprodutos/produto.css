@@ -28,7 +28,7 @@
 .historia {
   color: #c3924c;
 }
-.text{
+.alinha{
   text-align: justify;
 }
 
@@ -53,7 +53,7 @@
   color: #c3924c;
 }
 .botao{
-  margin-top: 20px;
+  margin-top: 0px;
 }
 .ancora > a{
   text-decoration: none;
