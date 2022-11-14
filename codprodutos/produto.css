@@ -28,9 +28,7 @@
 .historia {
   color: #c3924c;
 }
-.alinha{
-  text-align: justify;
-}
+
 
 .borda{
   border: solid 3px #265289;
@@ -53,7 +51,7 @@
   color: #c3924c;
 }
 .botao{
-  margin-top: 0px;
+  
 }
 .ancora > a{
   text-decoration: none;
