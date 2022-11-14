@@ -57,7 +57,6 @@
   margin: 1rem;
   border: solid 1px #265289;
   width: 500px;
-  height: 500px;
 }
 .carousel-inner {
   padding: 1em;
@@ -96,6 +95,9 @@ p{
   background-color: #265289;
   width: 175px;
   height: 40px;
+}
+.teste{
+  margin-top: 20px
 }
 .tamanho2{
   margin-bottom: 100px;
