@@ -68,6 +68,8 @@ b{
 .insta{
   text-decoration: none;
   color: #fff;
+}.card{
+  width: 300px;
 }
 /*rodape*/
 .sobre{
