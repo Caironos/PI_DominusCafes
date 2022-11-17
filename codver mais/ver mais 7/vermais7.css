@@ -1,17 +1,11 @@
+/*cabeçalho*/
 .fundo{background-color: #265289;}
 
 .linha{
-  border-top: 3px solid #ffff;
+    border-top: 3px solid #fff;
 }
 .branco{
     color: white;
-}
-.texto{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    text-align: center;
-    font-size: 40px;
-    padding-top: 15px;
-    color: #c3924c;
 }
 
 .icone{
@@ -19,11 +13,6 @@
 }
 .cor{
     background-color: #265289;
-}
-.texto2{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 45px;
-    color: #c3924c;
 }
 .carrinho{
   margin-right: 40px;
@@ -37,39 +26,38 @@
 /*Historia Dominus*/
 
 .historia {
-  color: black;
-  text-align:justify;
-}
-.logo{
-  margin-bottom: 50px;
-}
-.linhahi{
-  border-top: 3px solid #000;
-  margin-bottom: 200px;
-}
-b{
-  padding-top: 100px;
-}
-#more {display: none;}
-
-.met{
-  box-shadow:1.5px 1.5px 5px #265289;
+  color: #c3924c;
 }
 .text{
   text-align: justify;
-  font-size: 15px;
+}
+
+.borda{
+  border: solid 3px #265289;
 }
 .cor2{
   color: #c3924c;
 }
-.ver{
+
+.butao{
+  border: none;
   background-color: #265289;
+  border-radius: 10px;
+  color: white;
+}
+
+.ancora > a{
+  text-decoration: none;
+  color: white;
+}
+.ver2{
+  background-color: #265289;
+  width: 175px;
+  height: 40px;
 }
 .insta{
   text-decoration: none;
   color: #fff;
-}.card{
-  width: 300px;
 }
 /*rodape*/
 .sobre{
@@ -79,11 +67,12 @@ b{
 footer P
 {
   max-height: 0;
-}
-p{
   margin-bottom: 30px;
 }
-
+.tamanho{
+  width: 1000px;
+  
+}
 
 /*JS*/
 #linha1 , #linha2 , #linha3 , #linha4
