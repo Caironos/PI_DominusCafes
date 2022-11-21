@@ -1,9 +1,11 @@
 <?php
+global $mysqli;
+
 $host = 'localhost';
 $user = 'root';
 $passwd = '';
-$db_name = 'DominusCafes';
+$data = 'dominuscafes';
 
-$connection = mysqli_connect($host,$user,$passwd,$db_name);
+$connection = mysqli_connect($host,$user,$passwd,$data) or die ("Não foi possível conectar.");
 
 ?>
