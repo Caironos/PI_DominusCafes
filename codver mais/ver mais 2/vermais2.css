@@ -30,6 +30,7 @@
 }
 .text{
   text-align: justify;
+  padding-top: 35px;
 }
 
 .borda{
@@ -58,6 +59,9 @@
 .insta{
   text-decoration: none;
   color: #fff;
+}
+.botao{
+  margin-top: 15px;
 }
 /*rodape*/
 .sobre{
