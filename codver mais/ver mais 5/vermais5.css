@@ -59,6 +59,14 @@
   text-decoration: none;
   color: #fff;
 }
+.botao{
+  margin-top: 100px;
+}
+.texto{
+  padding-top: 50px;
+}
+
+
 /*rodape*/
 .sobre{
   margin-left: 5px;
