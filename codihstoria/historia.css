@@ -7,7 +7,6 @@
     color: white;
 }
 .texto{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
     font-size: 40px;
     padding-top: 15px;
@@ -52,15 +51,16 @@ b{
 }
 #more {display: none;}
 
-.met{
+.borda{
   box-shadow:1.5px 1.5px 5px #265289;
 }
 .text{
   text-align: justify;
-  font-size: 15px;
+  font-size: 19px;
 }
 .cor2{
   color: #c3924c;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .ver{
   background-color: #265289;
@@ -68,7 +68,8 @@ b{
 .insta{
   text-decoration: none;
   color: #fff;
-}.card{
+}
+.card{
   width: 300px;
 }
 /*rodape*/
