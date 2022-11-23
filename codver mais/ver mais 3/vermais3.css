@@ -1,0 +1,107 @@
+/*cabeçalho*/
+.fundo{background-color: #265289;}
+
+.linha{
+    border-top: 3px solid #fff;
+}
+.branco{
+    color: white;
+}
+
+.icone{
+    height: 100px;
+}
+.cor{
+    background-color: #265289;
+}
+.carrinho{
+  margin-right: 40px;
+  margin-top: 25px;
+}
+.pesquisa{
+  padding-top: 18px;
+  margin-right: 50px;
+}
+
+/*Historia Dominus*/
+
+.historia {
+  color: #c3924c;
+}
+.text{
+  text-align: justify;
+}
+
+.borda{
+  border: solid 3px #265289;
+}
+.cor2{
+  color: #c3924c;
+}
+
+.butao{
+  border: none;
+  background-color: #265289;
+  border-radius: 10px;
+  color: white;
+}
+
+.ancora > a{
+  text-decoration: none;
+  color: white;
+}
+.ver2{
+  background-color: #265289;
+  width: 175px;
+  height: 40px;
+}
+.insta{
+  text-decoration: none;
+  color: #fff;
+}
+.botao{
+  margin-top: 130px;
+}
+.texto{
+  padding-top: 75px;
+}
+
+
+/*rodape*/
+.sobre{
+  margin-left: 5px;
+}
+
+footer P
+{
+  max-height: 0;
+  margin-bottom: 30px;
+}
+.tamanho{
+  width: 1000px;
+  
+}
+
+/*JS*/
+#linha1 , #linha2 , #linha3 , #linha4
+{
+  height: 3px;
+  width: 50%;
+  margin-top: -5px;
+  background-color: white;
+  display: none;
+
+  animation: selecionado 1s;
+}
+#nav-1 a , #nav-2 a , #nav-3 a , #nav-4 a
+{
+  text-decoration: none;
+  color: white;
+}
+
+@keyframes selecionado {
+  
+  0% { width: 0px; }
+  100% { width: 50%; }
+
+}
