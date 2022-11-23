@@ -38,9 +38,12 @@
   margin-top: 25px;
 }
 .hamburger{
-  margin-left: 50px;
-  
+  margin-left: 200px;
 }
+.carrinho{
+    margin-left: 200px;
+}
+
 .pesquisa{
   padding-top: 18px;
   margin-right: 50px;
